@@ -19,6 +19,6 @@ function refreshStelaWeather() {
 
         if ($err) {
         } else {
-            file_put_contents('/home/bitrix/ext_www/stela.vdnh.ru/assets/json/weather.json', $response);
+            file_put_contents('/weather.json', $response);
         }
 }
